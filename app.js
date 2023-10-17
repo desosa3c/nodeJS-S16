@@ -55,8 +55,8 @@ app.delete("/people/:index", (req, res) => {
   const index = req.params.index;
 
   if (index >= 0 && index < people.length) {
-    const deletedPerson = people.splice(index, 1); // Elimina 1 elemento en la posición dada
-    res.json(deletedPerson[0]); // Responde con el objeto eliminado
+    const deletedPerson = people.splice(index, 1); //Elimina al contacto con el indice dado.
+    res.json(people); // Muestra la lista de contactos actualizada.
   } else {
     res.status(404).send("Índice no válido");
   }
