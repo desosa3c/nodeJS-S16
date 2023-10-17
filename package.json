@@ -15,5 +15,13 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desosa3c/nodeJS-S16.git"
+  },
+  "bugs": {
+    "url": "https://github.com/desosa3c/nodeJS-S16/issues"
+  },
+  "homepage": "https://github.com/desosa3c/nodeJS-S16#readme"
 }
